@@ -18,6 +18,9 @@ jobs:
           name: "Say hello"
           command: "echo Hello, World!"
           
+store_artifacts:
+    path: src/
+    
 store_test_results:
   path: src/
 
